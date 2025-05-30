@@ -1,0 +1,20 @@
+[
+    {
+        "customer_name": "WeLab Bank",
+        "address": "Level 23, K11 ATELIER, 728 King's Rd, Quarry Bay, Hong Kong",
+        "business_nature": "Financial Services",
+        "live_customer": true
+    },
+    {
+        "customer_name": "EY Hong Kong",
+        "address": "27/F One Taikoo Place 979 King's Road Quarry Bay, Hong Kong",
+        "business_nature": "Financial Services",
+        "live_customer": true
+    },
+    {
+        "customer_name": "Google Hong Kong",
+        "address": "Level 25, Tower 2, Times Square, 1 Matheson St, Causeway Ba",
+        "business_nature": "Technology",
+        "live_customer": false
+    }
+]

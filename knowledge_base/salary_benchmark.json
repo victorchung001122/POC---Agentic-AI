@@ -1,0 +1,67 @@
+{
+    "Technology": {
+    "averageSalary": "HKD 600,000",
+    "entryLevel": "HKD 300,000",
+    "seniorLevel": "HKD 1,000,000"
+    },
+    "Finance": {
+    "averageSalary": "HKD 700,000",
+    "entryLevel": "HKD 400,000",
+    "seniorLevel": "HKD 1,200,000"
+    },
+    "Marketing": {
+    "averageSalary": "HKD 500,000",
+    "entryLevel": "HKD 250,000",
+    "seniorLevel": "HKD 900,000"
+    },
+    "Manufacturing": {
+    "averageSalary": "HKD 400,000",
+    "entryLevel": "HKD 200,000",
+    "seniorLevel": "HKD 800,000"
+    },
+    "Healthcare": {
+    "averageSalary": "HKD 450,000",
+    "entryLevel": "HKD 300,000",
+    "seniorLevel": "HKD 900,000"
+    },
+    "Education": {
+    "averageSalary": "HKD 350,000",
+    "entryLevel": "HKD 200,000",
+    "seniorLevel": "HKD 600,000"
+    },
+    "Real Estate": {
+    "averageSalary": "HKD 550,000",
+    "entryLevel": "HKD 300,000",
+    "seniorLevel": "HKD 1,000,000"
+    },
+    "Retail": {
+    "averageSalary": "HKD 350,000",
+    "entryLevel": "HKD 180,000",
+    "seniorLevel": "HKD 700,000"
+    },
+    "Hospitality": {
+    "averageSalary": "HKD 300,000",
+    "entryLevel": "HKD 180,000",
+    "seniorLevel": "HKD 500,000"
+    },
+    "Legal Services": {
+    "averageSalary": "HKD 700,000",
+    "entryLevel": "HKD 400,000",
+    "seniorLevel": "HKD 1,500,000"
+    },
+    "F&B": {
+    "averageSalary": "HKD 250,000",
+    "entryLevel": "HKD 150,000",
+    "seniorLevel": "HKD 400,000"
+    },
+    "Travel": {
+    "averageSalary": "HKD 350,000",
+    "entryLevel": "HKD 200,000",
+    "seniorLevel": "HKD 600,000"
+    },
+    "Human Resources": {
+    "averageSalary": "HKD 400,000",
+    "entryLevel": "HKD 250,000",
+    "seniorLevel": "HKD 800,000"
+    }
+  }

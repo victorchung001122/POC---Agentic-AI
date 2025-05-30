@@ -1,0 +1,56 @@
+[
+    {
+        "applicant_name": "John Doe",
+        "applicant_email": "john.doe@example.com",
+        "loan_type": "Mortgage",
+        "loan_amount": 30000,
+        "application_date": "2023-09-15",
+        "status": "Processed",
+        "processing_details": {
+            "reviewer": "Jane Smith",
+            "review_date": "2023-09-20",
+            "notes": "All documents verified successfully."
+        },
+        "approval_details": {
+            "approved_amount": 28000,
+            "approval_date": "2023-09-22",
+            "approved_by": "Michael Johnson"
+        }
+    },
+    {
+        "applicant_name": "Alice Johnson",
+        "applicant_email": "alice.johnson@example.com",
+        "loan_type": "Personal",
+        "loan_amount": 15000,
+        "application_date": "2023-05-10",
+        "status": "Approved",
+        "processing_details": {
+            "reviewer": "Robert Brown",
+            "review_date": "2023-05-12",
+            "notes": "Initial review completed, no issues found."
+        },
+        "approval_details": {
+            "approved_amount": 15000,
+            "approval_date": "2023-05-14",
+            "approved_by": "Emily White"
+        }
+    },
+    {
+        "applicant_name": "Mark Wilson",
+        "applicant_email": "mark.wilson@example.com",
+        "loan_type": "Auto",
+        "loan_amount": 20000,
+        "application_date": "2023-03-22",
+        "status": "Rejected",
+        "processing_details": {
+            "reviewer": "Lisa Green",
+            "review_date": "2023-03-25",
+            "notes": "Applicant failed to provide necessary proof of income."
+        },
+        "approval_details": {
+            "approved_amount": null,
+            "approval_date": null,
+            "approved_by": null
+        }
+    }
+]

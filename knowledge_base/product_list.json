@@ -1,0 +1,43 @@
+{
+    "products": [
+        {
+            "type": "Savings Account",
+            "features": {
+                "interestRate": "1.2%",
+                "minimumBalance": "$100",
+                "onlineBanking": true,
+                "monthlyFees": "$0"
+            }
+        },
+        {
+            "type": "Checking Account",
+            "features": {
+                "overdraftProtection": true,
+                "monthlyFees": "$5",
+                "debitCard": true,
+                "onlineBanking": true
+            }
+        },
+        {
+            "type": "Credit Card",
+            "features": {
+                "annualFee": "$95",
+                "apr": "18.99%",
+                "rewards": {
+                    "cashBack": "1%",
+                    "airlineMiles": true,
+                    "bonusPoints": null
+                }
+            }
+        },
+        {
+            "type": "Personal Loan",
+            "features": {
+                "loanAmount": "Up to $50,000",
+                "term": "12 to 60 months",
+                "interestRate": "Starting at 6.99%",
+                "approvalSpeed": "24 hours"
+            }
+        }
+    ]
+}
