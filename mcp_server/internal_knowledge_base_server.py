@@ -48,7 +48,7 @@ def knowledge_base_customer_info():
     """get customer information from knwoledge base, such as customer name, address, business nature and whether it is a live customer.
     
      The customer information is provided in JSON format, including the following fields:
-        key - customer_name, e.g. Welab Bank
+        key - customer_name, e.g. EY HK
         address - address of the customer, e.g. 123 Main St, Hong Kong
         business_nature - nature of the business, e.g. banking, finance, insurance
         live_customer - whether the customer is a live customer, e.g. true or false
