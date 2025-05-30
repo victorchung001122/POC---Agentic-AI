@@ -12,20 +12,21 @@ from langchain_community.utilities import GoogleTrendsAPIWrapper, GoogleFinanceA
 from langchain_community.tools.google_trends import GoogleTrendsQueryRun
 from langchain_community.tools.google_finance import GoogleFinanceQueryRun
 from langchain_google_community import GoogleSearchAPIWrapper
+from config import PLACES_API_KEY, llm_api_key, OPENWEATHERMAP_API_KEY, SERPAPI_API_KEY, SERP_API_KEY, GOOGLE_CSE_ID, GOOGLE_API_KEY, GOOGLE_MAPS_API_KEY
 
 
 # Environment Variables for API Keys and User Agent
-os.environ["USER_AGENT"] = "WeLab Knowledge Intellegent Center"
-os.environ["GPLACES_API_KEY"] = 'AIzaSyDfqOagFx6fbZBB5TlX_QZHvqV-Kj-jK6c'
-os.environ["DEEPSEEK_API_KEY"] = 'sk-4b17e82aaa79439a92e9ae38e2d60a0a'
-os.environ["OPENWEATHERMAP_API_KEY"] = 'b852730ad89a93d435107d9403b2f846'
-os.environ["SERPAPI_API_KEY"] = '0c7ed14ff2aae79de26336fbb1d8a4b173a2ddeba99fc1e246442ab7941fa139'
-os.environ["SERP_API_KEY"] = '0c7ed14ff2aae79de26336fbb1d8a4b173a2ddeba99fc1e246442ab7941fa139'
-os.environ["GOOGLE_CSE_ID"] = "33c8df939e3984c0f"
-os.environ["GOOGLE_API_KEY"] = "AIzaSyBsPJRspL0hgfmWPv5WxzExYladGU7dvZ0"
+os.environ["USER_AGENT"] = "testing"
+os.environ["GPLACES_API_KEY"] = PLACES_API_KEY
+os.environ["DEEPSEEK_API_KEY"] = llm_api_key
+os.environ["OPENWEATHERMAP_API_KEY"] = OPENWEATHERMAP_API_KEY
+os.environ["SERPAPI_API_KEY"] = SERPAPI_API_KEY
+os.environ["SERP_API_KEY"] = SERP_API_KEY
+os.environ["GOOGLE_CSE_ID"] = GOOGLE_CSE_ID
+os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # Initialize Google Maps Client
-gmaps = googlemaps.Client(key='AIzaSyDnSfbTdh4M9M9STqFxSUYGwRPl72JEl5A')
+gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
 
 # Define tools
 @tool
