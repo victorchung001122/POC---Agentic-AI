@@ -1,0 +1,13 @@
+httpx
+gradio
+langchain-deepseek
+langchain-mcp-adapters
+langgraph
+langgraph-supervisor
+langchain-community
+langchain-openai
+chromadb
+googlemaps
+langchain-core
+langchain
+langchain-google-community
